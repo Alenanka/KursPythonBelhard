@@ -5,3 +5,12 @@
 Например: 13520 -> bdfca.
 '''
 
+alphabet = 'abcdefghij'
+
+user_input = input('Введите число: ')
+
+if user_input.isdigit():
+    result = ''.join(alphabet[int(d)] for d in user_input)
+    print(f'{user_input} -> {result}')
+else:
+    print('Введите только цифры!')
