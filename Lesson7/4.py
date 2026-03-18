@@ -15,7 +15,6 @@ while True:
     if  height.isdigit() and 3 <= int(height) <= 20:
         height = int(height)
         break
-        print("Введено неверное число.")
     else:
         print("Введено неверное число.")
 
